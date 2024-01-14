@@ -42,10 +42,18 @@
     .client-section{
         padding-left: 20px;
         padding-right: 20px;
+        margin-bottom: 50px;
     }
     .client-box{
         flex-wrap: wrap;
         gap: 15px;
+    }
+    .populer-section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .populer-card-box{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -93,10 +101,18 @@
     .client-section{
         padding-left: 20px;
         padding-right: 20px;
+        margin-bottom: 50px;
     }
     .client-box{
         flex-wrap: wrap;
         gap: 15px;
+    }
+    .populer-section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .populer-card-box{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -137,9 +153,17 @@
     .client-section{
         padding-left: 60px;
         padding-right: 60px;
+        margin-bottom: 50px;
     }
     .client-box{
         flex-wrap: wrap;
         gap: 30px;
+    }
+    .populer-section{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .populer-card-box{
+        grid-template-columns: repeat(2, 1fr);
     }
 }   

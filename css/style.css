@@ -172,3 +172,94 @@ nav .nav-items ul li a:hover{
 .client-img img:hover{
     transform: scale(1.2);
 }
+
+/* popular section start */
+.populer-section{
+    padding-left: 196px;
+    padding-right: 196px;
+}
+
+.populer-title h3{
+    color: var(--heading-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.populer-card-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    transition: transform 1s;
+}
+.pupuler-single-box {
+    max-width: 329px;
+    padding: 17px 15px 0px 14px;
+    border-radius: 5px;
+    background: var(--white-color);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.pupuler-single-box:hover{
+    transform: scale(1.1);
+}
+.pupuler-single-box img{
+    width: 100%;
+}
+
+.pupuler-single-box h3{
+    color: #18191F;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.pupuler-single-box h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: var(--secondary-font);
+    font-weight: 400;
+}
+
+.pupuler-single-box .box-rating{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.pupuler-single-box .box-rating span{
+    color: #5E6366;
+    font-family: var(--third-font);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.pupuler-single-box .box-content p{
+    color: #787885;
+    font-family: var(--secondary-font);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding-bottom: 17px;
+}
+
+.see-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.see-btn a{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 700;
+    transition: transform .5s;
+}
+.see-btn a:hover{
+    transform: scale(1.1);
+}
+.see-btn a i{
+    margin-left: 8px;
+}
