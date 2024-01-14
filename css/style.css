@@ -1,0 +1,174 @@
+/* Google font poppins, Inter, Roboto, Manrope */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
+    --third-font: 'Roboto', sans-serif;
+    --footer-font: 'Manrope', sans-serif;
+    --heading-color: #3A3A3A;
+    --white-color: #FFF;
+    --button-color: #E02C6D;
+    --footer-background: #0A0826;
+    --border-single: linear-gradient(90deg, rgba(203, 192, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3.2rem;  /* 52px */
+}
+
+h2{
+    font-size: 2.37rem; /* 38px */
+}
+
+h3{
+    font-size: 1.7rem; /* 28px */
+}
+
+h4{
+    font-size: 1.5rem; /* 24px */
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* header section start */
+.header-section{
+    padding: 50px 120px 50px 120px;
+}
+
+.header-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-logo h4{
+    color: var(--heading-color);
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
+
+nav .nav-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+nav .nav-items ul li{
+    list-style: none;
+}
+
+nav .nav-items ul li a{
+    color: var(--heading-color);
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: .5s;
+}
+
+nav .nav-items ul li a:hover{
+    color: gray;
+    transform: scale(1.2);
+}
+
+/* Banner section start */
+.banner-section{
+    padding-left: 120px;
+    padding-right: 132px;
+}
+
+.banner-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 131px;
+}
+
+.banner-content h1{
+    color: var(--heading-color);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    line-height: 70px;
+    
+}
+
+.banner-content p{
+    color: var(--heading-color);
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+.banner-btn a{
+    padding: 10px 24px;
+    font-family: var(--primary-font);
+    background-color: var(--button-color);
+    border-radius: 41px;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.banner-btn a:hover{
+    padding: 15px 30px;
+    color: rgb(224, 204, 204);
+    transform: scale(1.5) zoom-out;
+}
+
+.banner-btn a i{
+    margin-left: 8px;
+}
+
+.banner-box .banner-image{
+    background-image: url(../assets/images/circle-design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform .5s;
+}
+
+.banner-box .banner-image img{
+    width: 100%;
+}
+
+.banner-box .banner-image:hover{
+    transform: scale(1.1);
+}
+
+/* client section start */
+.client-section{
+    padding-left: 165px;
+    padding-right: 165px;
+    margin: 70px 0 100px 0;
+}
+
+.client-box{
+    padding: 35px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   border-top: 1px solid gainsboro;
+   border-bottom: 1px solid gainsboro;
+}
+
+.client-img{
+    transition: transform .5s;
+}
+
+.client-img img:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,145 @@
+/* x - small devices */
+@media screen and (max-width: 575.98px){
+    .header-section{
+        padding: 40px 20px;
+    }
+    .header-section nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav .nav-items ul{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .banner-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 22px;
+    }
+    .banner-box{
+        flex-direction: column-reverse;
+        gap: 14px;
+    }
+    .banner-content h1{
+        font-size: 1.7rem;
+        text-align: center;
+        font-family: Poppins;
+        line-height: normal;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .banner-content p{
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    .banner-btn{
+        text-align: center;
+    }
+    .client-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .client-box{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+/* small devices */
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .header-section{
+        padding: 40px 20px;
+    }
+    .header-section nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav .nav-items ul{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .banner-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 22px;
+    }
+    .banner-box{
+        flex-direction: column-reverse;
+        gap: 14px;
+    }
+    .banner-content h1{
+        font-size: 1.7rem;
+        text-align: center;
+        font-family: Poppins;
+        line-height: normal;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .banner-content p{
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    .banner-btn{
+        text-align: center;
+    }
+    .client-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .client-box{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+/* Medium devices */
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .header-section nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 22px;
+    }
+    .banner-box{
+        flex-direction: column-reverse;
+        gap: 14px;
+    }
+    .banner-content h1{
+        font-size: 1.7rem;
+        text-align: center;
+        font-family: Poppins;
+        line-height: normal;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .banner-content p{
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    .banner-btn{
+        text-align: center;
+    }
+    .client-section{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .client-box{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}   
