@@ -55,6 +55,21 @@
     .populer-card-box{
         grid-template-columns: 1fr;
     }
+    .featuires-section{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 50px;
+    }
+    .features-box{
+        flex-direction: column-reverse;
+    }
+    .features-content h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .features-content p{
+        text-align: center;
+    }
 }
 
 /* small devices */
@@ -114,6 +129,21 @@
     .populer-card-box{
         grid-template-columns: 1fr;
     }
+    .featuires-section{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 50px;
+    }
+    .features-box{
+        flex-direction: column-reverse;
+    }
+    .features-content h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .features-content p{
+        text-align: center;
+    }
 }
 
 /* Medium devices */
@@ -165,5 +195,20 @@
     }
     .populer-card-box{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .featuires-section{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 50px;
+    }
+    .features-box{
+        flex-direction: column-reverse;
+    }
+    .features-content h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .features-content p{
+        text-align: center;
     }
 }   

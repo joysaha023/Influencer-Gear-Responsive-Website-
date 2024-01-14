@@ -263,3 +263,45 @@ nav .nav-items ul li a:hover{
 .see-btn a i{
     margin-left: 8px;
 }
+
+/* features section start */
+.featuires-section{
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 100px;
+}
+
+.features-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.features-box .features-img img{
+    width: 100%;
+}
+
+.features-content h2{
+    color: #0A0826;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.features-content p{
+    color: #6C6C6C;
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.feature-btn a{
+    border-radius: 0;
+}
+
+/* footer section start */
+.footer-section{
+    background: #0A0826;
+}
